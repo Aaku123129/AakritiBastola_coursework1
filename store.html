@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .store-container {
+            display: flex;
+            flex-wrap: wrap; /* Allows wrapping */
+            gap: 10px; /* Space between images */
+            justify-content: center; /* Center align images */
+        }
+        .image-container img {
+            width: calc(100% / 7 - 10px); /* 7 images per row */
+            max-width: 150px; /* Set max width */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="store-container">
+        <!-- Repeat this block for 100 images -->
+        <div class="product">
+            <img src="omg.jpeg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <!-- End of block -->
+        <div class="product">
+            <img src="image 1.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+                <!-- <button class="view-details">View Details</button> -->
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="image 2.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="image 3.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="image 4.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="image 5.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="9.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="imag 7.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="image 8.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="10.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="11.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="12.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="13.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="14.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product">
+            <img src="15.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        
+        <div class="product">
+            <img src="16.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="17.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="18.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="19.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="20.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="21.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="22.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="23.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="24.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="23.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="24.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="25.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="26.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="27.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="28.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="29.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="30.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="31.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="32.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="33.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="34.jpg".jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="35.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="36.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="37.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="38.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="39.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="40.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="42.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="41.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="43.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="44.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="45.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="46.jpg" alt="Product 1" class="product-image" width="200" height="300">
+            <div class="product-info">
+                <p>Price: Rs 500.00</p>
+                <p>Quantity: <input type="number" value="1" min="1"></p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="Product Image">
+            <p id="modalPrice"></p>
+            <!-- <p>Quantity: <input type="number" id="modalQuantity" value="1" min="1"></p>
+            <button id="modalAddToCart">Add to Cart</button> -->
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+            <button id="addToCart">Add to Cart</button>
+            <button id="orderNow">Order Now</button>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cartItems"></div>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Cart Button -->
+    <button id="viewCart">View Cart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
